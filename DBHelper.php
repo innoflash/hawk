@@ -10,8 +10,8 @@ class DBHelper
 {
     const HOST = "localhost";
     const USER = "root";
-    const PASSWORD = "";
-    const DB_NAME = "keq";
+    const PASSWORD = "my_password";
+    const DB_NAME = "my_db_name";
 
     /**<p>This function reads the number of rows inside a table in a database</p>
      *<br>
