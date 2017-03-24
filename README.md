@@ -30,9 +30,11 @@ $insertData = [
   .
   . //the list of values for all columns
 ]
-$inserted = $dbh->insertData($insertData);<br/>
-<a href="https://youtu.be/Gmo0NjqRkDc">Watch this video to see how its done</a>
+$inserted = $dbh->insertData($insertData);
 ~~~
+<br/>
+<a href="https://youtu.be/Gmo0NjqRkDc" target="_blank">Watch this video to see how its done</a>
+
 <p>This works for both cases of the DBHelper and returns true on successfully inserting and false on failure
 <hr/>
 <h5>SELECT</h5>
